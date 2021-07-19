@@ -3,7 +3,7 @@ Zdrojové kódy pro web 'Matesův pohled'
 
 ## Požadované funkce
 ### Příspěvky
-[ ] Vytvoření nových příspěvků
+[] Vytvoření nových příspěvků
   * Nadpis, úvod, tělo, autor, datum zveřejnění
 [ ] Přiřazení jednotlivých příspěvků do skupin
 [ ] Přiřazení značek (tagů) k příspěvku
