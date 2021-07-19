@@ -22,4 +22,10 @@ Zdrojové kódy pro web 'Matesův pohled'
 ### Příspěvek
 | Název sloupce | Datový typ | Popis                         |
 | ------------- | ---------- | ----------------------------- |
-| article\_id   | UUID       | Unikátní identifikátor článku |
+| id            | UUID       | Unikátní identifikátor článku |
+| author\_id    | UUID       | Unikátní identifikátor autora |
+| header        | String     | Nadpis článku                 |
+| body          | String     | Obsah článku                  |
+| created       | Datetime   | Datum vytvoření článku        |
+| published     | Datetime   | Datum publikování článku      |
+
