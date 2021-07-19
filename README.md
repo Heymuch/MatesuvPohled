@@ -4,7 +4,7 @@ Zdrojové kódy pro web 'Matesův pohled'
 ## Požadované funkce
 ### Příspěvky
 - [ ] Vytvoření a správa příspěvků
-- [ ] Přiřazení jednotlivých příspěvků do skupin
+- [ ] Přiřazení jednotlivých příspěvků do kategorií
 - [ ] Přiřazení značek (tagů) k příspěvku
 - [ ] Možnost plánovaného uveřejnění příspěvku
 - [ ] Generování odkazů ke sdílení příspěvků na sociální sítě (Facebook, Twitter, ...)
@@ -29,3 +29,12 @@ Zdrojové kódy pro web 'Matesův pohled'
 | created       | Datetime   | Datum vytvoření článku        |
 | published     | Datetime   | Datum publikování článku      |
 
+### Příspěvek > Kategorie
+| Název sloupce | Datový typ | Popis                                     |
+| ------------- | ---------- | ----------------------------------------- |
+| id            | UUID       | Unikátní identifikátor kategorie          |
+| name          | String     | Název kategorie                           |
+| short\_name   | String     | Zkrácený název kategorie                  |
+| description   | String     | Popis kategorie                           |
+| enabled       | Boolean    | Možnost přidávat do kategorie nové články |
+| created       | Datetime   | Datum vytvoření kategorie                 |
