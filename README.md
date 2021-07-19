@@ -3,8 +3,7 @@ Zdrojové kódy pro web 'Matesův pohled'
 
 ## Požadované funkce
 ### Příspěvky
-- [ ] Vytvoření nových příspěvků
-  * Nadpis, úvod, tělo, autor, datum zveřejnění
+- [ ] Vytvoření a správa příspěvků
 - [ ] Přiřazení jednotlivých příspěvků do skupin
 - [ ] Přiřazení značek (tagů) k příspěvku
 - [ ] Možnost plánovaného uveřejnění příspěvku
@@ -12,6 +11,15 @@ Zdrojové kódy pro web 'Matesův pohled'
 - [ ] Sledování návštěvnosti jednotlivých příspěvků
 - [ ] Diskuze pod jednotlivými příspěvky
 
+### Uživatelé a skupiny
+- [ ] Vytvožení a správa uživatelů/skupin
+
 ### Administrace
 * Přihlášení uživatele
 * Správa stránek
+
+## Datová struktura
+### Příspěvek
+| Název sloupce | Datový typ | Popis                         |
+| ------------- | ---------- | ----------------------------- |
+| article\_id   | UUID       | Unikátní identifikátor článku |
