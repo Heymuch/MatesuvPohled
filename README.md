@@ -2,14 +2,16 @@
 Zdrojové kódy pro web 'Matesův pohled'
 
 ## Požadované funkce
-* Příspěvky
-  * Vytvoření a editace jednotlivých příspěvků, možnost zypografické stylizace
-  * Třídění jednotlivých příspěvků do skupin
-  * Možnost přiřadit tagy k příspěvku (#hashtag)
-  * Možnost naplánovat publikování příspěvku
-  * Generování odkazů ke sdílení příspěvků na sociální sítě (Facebook, Twitter, ...)
-  * sledování návštěvnosti jednotlivých příspěvků
-  * diskuze pod příspěvkem (anonymní)
-* Administrace
-  * Přihlášení uživatele
-  * Správa stránek
+### Příspěvky
+[ ] Vytvoření nových příspěvků
+  * Nadpis, úvod, tělo, autor, datum zveřejnění
+[ ] Přiřazení jednotlivých příspěvků do skupin
+[ ] Přiřazení značek (tagů) k příspěvku
+[ ] Možnost plánovaného uveřejnění příspěvku
+[ ] Generování odkazů ke sdílení příspěvků na sociální sítě (Facebook, Twitter, ...)
+[ ] Sledování návštěvnosti jednotlivých příspěvků
+[ ] Diskuze pod jednotlivými příspěvky
+
+### Administrace
+* Přihlášení uživatele
+* Správa stránek
